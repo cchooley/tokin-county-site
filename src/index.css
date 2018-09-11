@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background: rgb(0, 0, 0, .7);
+  height: 8vmin;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+  background: rgb(0, 0, 0, .7);
+  height: 8vmin;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.hero {
+  background-image: url('./Assets/TC-1.jpg');
+  height: 120vmin;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgreen;
+}
