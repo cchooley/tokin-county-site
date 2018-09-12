@@ -25,7 +25,7 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <div class="header">
+                <div className="header">
                     <a href="menu.html">Menu</a>
                     <a href="about.html">About</a>
                     <a href="location.html">Location</a>

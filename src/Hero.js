@@ -24,7 +24,12 @@ class Hero extends Component {
 
     render() {
         return (
-            <div class='hero' />
+            <div>
+                <div className='hero' />
+                <div className='tagline'>
+                    Denver's finest <span className="green">medical</span> dispensary
+                </div>
+            </div>
         );
     }
 

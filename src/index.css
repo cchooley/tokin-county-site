@@ -25,14 +25,28 @@ body {
 
 .hero {
   background-image: url('./Assets/TC-1.jpg');
-  height: 120vmin;
+  height: 55vmax;
 }
 
+.tagline {
+  padding: 4vmin;
+  font-size: 4vmin;
+  background: rgb(0, 0, 0, .7);
+}
+
+.mapSection {
+  display: flex;
+  flex-flow: row;
+}
 a {
   color: white;
   text-decoration: none;
 }
 
 a:hover {
+  color: lightgreen;
+}
+
+.green {
   color: lightgreen;
 }

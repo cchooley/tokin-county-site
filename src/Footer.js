@@ -7,33 +7,18 @@ class Footer extends Component {
         };
     };
 
-    static defaultProps = {
-    }
-
-    componentWillMount() {
-    }
-
-    componentWillReceiveProps(nextProps) {
-    }
-
-    shouldComponentUpdate(nextProps, nextState) {
-    }
-
-    componentWillUpdate(nextProps, nextState) {
-    }
-
     render() {
         return (
-            <div class='footer'>
-                <div class='fCol1'>
+            <div className='footer'>
+                <div className='fCol1'>
                     <h4>3819 Quentin St.</h4>
                     <h4>Denver, CO 80239</h4>
                 </div>
-                <div class='fCol2'>
+                <div className='fCol2'>
                     <h4>720.692.1539</h4>
                     <h4>Open 9AM - 7PM</h4>
                 </div>
-                <div class='fCol3'>
+                <div className='fCol3'>
                     <h4>Website designed by</h4>
                     <h4>Conor Hooley</h4>
                 </div>
@@ -41,17 +26,6 @@ class Footer extends Component {
         );
     }
 
-    componentDidMount() {
-    }
-
-    componentDidUpdate(prevProps, prevState) {
-    }
-
-    componentWillUnmount() {
-    }
-
-    componentDidCatch(error, info) {
-    }
 }
 
 export default Footer;
